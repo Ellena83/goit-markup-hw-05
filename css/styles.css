@@ -155,7 +155,7 @@ padding-left: 0;
 
 .address-link-icon {
     margin-right: 10px;
-
+    fill: currentColor;
 }
 
 .address-link:hover,
@@ -394,15 +394,17 @@ img {
     border-radius: 4px;
     fill: #afb1b8;
     transition: border var(--transition-data);
+    color: var(--accent-text-color);
 }
 
 .clients-list-link:hover,
 .clients-list-link:focus {
     border: 1px solid var(--accent-color);
-    fill: var(--accent-color);
+    color: var(--accent-color);
 }
 .client-logo {
     transition: fill var(--transition-data);
+    fill: currentColor;
 }
 
 
@@ -546,6 +548,7 @@ img {
     color: inherit;
     text-decoration: none;
     transition: box-shadow var(--transition-data);
+    display: block;
 }
 
 .pages-nav-list {
